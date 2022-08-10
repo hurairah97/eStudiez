@@ -7,5 +7,6 @@
   <?php include './components/nav.php' ?>
   
   <?php include './components/footer.php' ?>
+  <?php include './components/scripts_file.php'?>
 </body>
 </html>
