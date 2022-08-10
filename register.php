@@ -9,15 +9,12 @@
   <style>
     input {
       width: auto;
-      margin-bottom: 20px;
-        }
+      margin-bottom: 10px;
+    }
 
     h1 {
       margin-top: 35px;
-      margin-bottom: 40px;
-    }
-    .btn-info{
-      margin-bottom: 20px;
+      margin-bottom: 30px;
     }
   </style>
 </head>
@@ -27,42 +24,33 @@
   <?php include './components/scripts_file.php' ?>
 
   <div class="container justify-content-center d-flex">
-    <div class="mt-4 p-5 bg-light w-50  rounded ">
+    <div class="mt-4 p-5 bg-light w-50  rounded text-center">
       <nav>
         <div class="nav nav-tabs justify-content-center text-center" id="nav-tab" role="tablist">
-          <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Students</button>
-          <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Teachers</button>
+          <button class="nav-link active" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Teachers</button>
           <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Parents</button>
         </div>
       </nav>
       <div class="tab-content" id="nav-tabContent">
-        <div class="tab-pane justify-content-center fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-          <form class="form-group text-center">
-            <h1>Students Login</h1>
+        <div class="tab-pane fade show active" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+          <form class="form-group">
+            <h1>Teachers SingIn</h1>
+            <input class="form-control" type="text" name="name" placeholder="Name" required><br>
             <input class="form-control" type="email" name="email" placeholder="Email" required><br>
             <input class="form-control" type="password" name="password" placeholder="Password" required><br>
-            <button class="btn btn-info text-white">Submit</button><br>
-            </form>
+            <input class="form-control" type="file" name="image" required> </br>
 
-            <span class="text-left">Not a member?</span><a href="register.php">  Signup now</a>
-        </div>
-        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-          <form class="form-group text-center">
-            <h1>Teachers Login</h1>
-            <input class="form-control" type="email" name="email" placeholder="Email" required><br>
-            <input class="form-control" type="password" name="password" placeholder="Password" required><br>
             <button class="btn btn-info text-white">Submit</button>
-            </form>
-            <span class="text-left">Not a member?</span><a href="register.php">  Signup now</a>
+          </form>
         </div>
         <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-          <form class="form-group text-center">
-            <h1>Parents Login</h1>
+          <form class="form-group">
+            <h1>Parents SingIn</h1>
+            <input class="form-control" type="text" name="name" placeholder="Name" required ><br>
             <input class="form-control" type="email" name="email" placeholder="Email" required><br>
             <input class="form-control" type="password" name="password" placeholder="Password" required><br>
             <button class="btn btn-info text-white">Submit</button>
-            </form>
-            <span class="text-left">Not a member?</span><a href="register.php">  Signup now</a>
+          </form>
         </div>
       </div>
     </div>
