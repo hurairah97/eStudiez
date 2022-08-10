@@ -8,7 +8,7 @@
 <!-- Favicon -->
 
 <!-- Stylesheet -->
-<link rel="stylesheet" href="http://<?php echo $_SERVER['SERVER_NAME'] . ":" . $_SERVER['SERVER_PORT'] ?>/flow/dist/css/style.css">
-<link rel="stylesheet" href="http://<?php echo $_SERVER['SERVER_NAME'] . ":" . $_SERVER['SERVER_PORT'] ?>/flow/dist/css/bootstrap.min.css">
-<link rel="stylesheet" href="http://<?php echo $_SERVER['SERVER_NAME'] . ":" . $_SERVER['SERVER_PORT'] ?>/flow/dist/css/font-awesome.min.css">
-<link rel="stylesheet" href="http://<?php echo $_SERVER['SERVER_NAME'] . ":" . $_SERVER['SERVER_PORT'] ?>/flow/dist/css/materialdesignicons.css">
+<link rel="stylesheet" href="http://<?php echo $_SERVER['SERVER_NAME'] . ":" . $_SERVER['SERVER_PORT'] ?>/eStudiez/dist/css/style.css">
+<link rel="stylesheet" href="http://<?php echo $_SERVER['SERVER_NAME'] . ":" . $_SERVER['SERVER_PORT'] ?>/eStudiez/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://<?php echo $_SERVER['SERVER_NAME'] . ":" . $_SERVER['SERVER_PORT'] ?>/eStudiez/dist/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://<?php echo $_SERVER['SERVER_NAME'] . ":" . $_SERVER['SERVER_PORT'] ?>/eStudiez/dist/css/materialdesignicons.css">

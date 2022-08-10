@@ -6,7 +6,7 @@
 <body>
   <?php include './components/nav.php' ?>
   <div class="container">
-    <h1>eStudiez Home Page</h1>
+    <h1>Students Portal</h1>
   </div>
   <?php include './components/footer.php' ?>
 </body>
