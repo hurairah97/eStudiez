@@ -1,11 +1,11 @@
     <!-- ##### Footer Area Start ##### -->
-    <footer class="footer-area px-5">
-        <!-- <div class="container row d-flex flex-wrap align-items-center justify-content-center">
+    <!-- <footer class="footer-area px-5">
+       <div class="container row d-flex flex-wrap align-items-center justify-content-center">
             <div class="col-12 col-md-8 p-2 ml-2">
                 <a href="#">
-                    <!-- <img src="http://<?php echo $_SERVER['SERVER_NAME'].":".$_SERVER['SERVER_PORT']?>/" width="100px" alt="logo"> -->
+                 <img src="http://<?php echo $_SERVER['SERVER_NAME'].":".$_SERVER['SERVER_PORT']?>/" width="100px" alt="logo"> -->
                 </a>
-            </div> -->
+            </div>
 
             <div class="col-12 text-center">
                 <p class="copywrite-text">
